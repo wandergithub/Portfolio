@@ -33,13 +33,13 @@ body {
   align-self: center;
 }
 
-.tittle {
+.title {
   font-size: 48px;
   font-weight: bold;
   color: #7c73fc;
 }
 
-.tittle-2 {
+.title-2 {
   font-weight: 500;
   font-size: 32px;
   color: #edecff;
@@ -48,4 +48,68 @@ body {
 .text {
   color: #c8c8d4;
   font-size: 20px;
+  font-weight: 400;
+}
+
+#section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+#section-2 > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 12% 1fr 1fr 1fr;
+  flex-grow: 1;
+  margin: 37px 44px;
+}
+
+#language-t {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+#language-l {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+#frameworks-t {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+#frameworks-l {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+#skills-t {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#skills-l {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+#section-2 ul {
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.list-title {
+  align-self: center;
+  color: #9490ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.list-content {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f5f5ff;
 }
