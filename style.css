@@ -282,3 +282,84 @@ body {
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width:768px){
+  .desktop-v {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #section-1 #nav-bar a:not(.desktop-v),
+  #section-1 #nav-bar img:not(.desktop-v) {
+    display: none;
+  }
+
+  #section-1 #nav-bar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  #section-1 #nav-bar {
+    position: absolute;
+    top: 26px;
+    left: 150px;
+    right: 150px;
+  }
+
+  #section-1 header h1 {
+    margin-top: 186px;
+    margin-bottom: 24px;
+    font-size: 90px;
+  }
+
+  #section-1 header h2 {
+    font-size: 40px;
+    margin: 0%;
+  }
+
+  .text-container {
+    width: 447px;
+    align-self: center;
+    padding-top: 88px;
+    font-size: 20px;
+    color: #b3bac5;
+    padding-bottom: 33px;
+  }
+
+  .vector-img {
+    width: 448px;
+  }
+
+  #section-2 {
+    width: 448px;
+  }
+
+  #wrapper {
+    align-items: center;
+  }
+
+  #section-2 > ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 1fr;
+    align-self: left;
+    margin: 37px 0% 17px 0%;
+  }
+
+  #skills-t {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  #skills-l {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  #section-2  ul li {
+    margin-bottom: 20px;
+  }
+
+}
