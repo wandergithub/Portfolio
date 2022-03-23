@@ -12,12 +12,12 @@
 - Twitter: [@wanderklk1](https://twitter.com/wanderklk1)
 - LinkedIn: [Wander A. Gonzalez](https://www.linkedin.com/in/wander-a-gonzalez-53127b205/)
 
-## Co-Authors
+## Co-Authors 👤
 
 -  GitHub: [@Gedewon](https://github.com/Gedewon)
 - LinkedIn: [@Gedewon:](https://linkedin.com/in/gedewon)
 
-### Setup
+## Setup 🧰
 
 1. Clone the main branch.
 2. Then you can open the index.html file in your prefered browser.
