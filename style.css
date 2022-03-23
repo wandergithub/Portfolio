@@ -163,24 +163,26 @@ body {
 
 .post button {
   align-self: flex-start;
-  height: 44px;
-  width: 69px;
+  height: 50px;
+  width: 91px;
   color: #edecff;
   background-color: #7d73fc;
   font-size: 12px;
   font-family: inherit;
   border: none;
+  margin-top: 24px;
+  line-height: 24px;
 }
 
-.post button:hover {
+.buton-effects:hover {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-.post button:active {
+.buton-effects:active {
   background-color: #5e42d7;
 }
 
-.post button:disabled {
+.buton-effects:disabled {
   background-color: #2a2b33;
 }
 
@@ -196,4 +198,87 @@ body {
   flex-grow: 1;
   margin: 37px 44px;
   margin-bottom: 50px;
+}
+
+#section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-5 p {
+  text-align: center;
+  margin: auto 24px 40px 24px;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+}
+
+.contact-form-t {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-top: 120px;
+  color: #9390ff;
+  margin-bottom: 24px;
+}
+
+.input-box {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 24px;
+  color: #191765;
+  font-size: 15px;
+}
+
+.textarea {
+  height: 148px;
+}
+
+.buttons {
+  height: 50px;
+  width: 91px;
+  color: #edecff;
+  background-color: #7d73fc;
+  font-size: 12px;
+  font-family: inherit;
+  border: none;
+  margin-top: 24px;
+  margin-bottom: 70px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.form input::placeholder {
+  font-family: 'Inter', sans-serif;
+  margin: 15px;
+}
+
+.form textarea::placeholder {
+  font-family: 'Inter', sans-serif;
+  margin: 12px;
+}
+
+#section-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-6 .img {
+  margin-bottom: 25px;
+}
+
+#section-6 nav {
+  margin-bottom: 0%;
+}
+
+#section-6 a {
+  color: white;
+  text-decoration: none;
 }
