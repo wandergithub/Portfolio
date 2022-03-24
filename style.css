@@ -315,6 +315,11 @@ body {
     display: none;
   }
 
+  body {
+    background-image: url(sprites/desktop-v/bg-d17.svg), url(sprites/desktop-v/bg-d18.svg), url(sprites/desktop-v/bg-d19.svg), url(sprites/desktop-v/bg-d20.svg), url(sprites/desktop-v/bg-d21.svg), url(sprites/desktop-v/bg-d22.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 267px, right 539px, left 1661px, right 2343px, left 2941px, right 3173px;  
+  }
   #section-1 #nav-bar div {
     display: flex;
     align-items: center;
@@ -335,6 +340,7 @@ body {
     font-weight: 500;
     text-decoration: none;
   }
+
   #section-1 header h1 {
     margin-top: 186px;
     margin-bottom: 24px;
