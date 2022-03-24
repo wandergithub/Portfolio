@@ -271,8 +271,9 @@ body {
   align-items: center;
 }
 
-#section-6 .img {
+#section-5 + .img {
   margin-bottom: 25px;
+  width: 100vw;
 }
 
 #section-6 nav {
@@ -410,6 +411,7 @@ body {
     grid-template-rows: 105px 140px 40px 48px;
     padding-bottom: 88px;
     padding-top: 0%;
+    margin: 0% 142px 0% 142px;
   }
 
   .post img {
@@ -436,4 +438,35 @@ body {
   .mirror-post img {
     grid-column: 2/3;
   }
+
+  .contact-form-t {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  #section-5 p {
+    text-align: center;
+    margin: auto 24px 88px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 684px;
+  }
+
+  .input-box {
+    width: 684px;
+  }
+
+  .send-button {
+    width: 160px;
+    height: 48px;
+    margin-top: 89px;
+    margin-bottom: 106px;
+  }
+
+  #section-6 {
+    flex-direction: row;
+    gap: 10px;
+  }
+
 }
