@@ -315,7 +315,8 @@ body {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
-    transition-duration: 1s;
+    transition-duration: 4s;
+    transition-property: 2s;
   }
 
   .post h2 {
