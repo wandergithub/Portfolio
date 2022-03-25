@@ -315,8 +315,9 @@ body {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
-    transition-duration: 4s;
-    transition-property: 2s;
+    transition-duration: 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: ease-out;
   }
 
   .post h2 {
@@ -356,6 +357,11 @@ body {
   .post > button,
   .post p {
     margin: 0%;
+  }
+
+  #section-1 a:hover {
+    font-size: 200%;
+    color: gray;
   }
 
   #section-1 #nav-bar a:not(.desktop-v),
@@ -505,7 +511,12 @@ body {
     gap: 10px;
     font-size: 20px;
   }
-  #section-1 a:hover {
-    transform: scale(0.25, 1.5);
-}
+
+  .rotate-anim {
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .rotate-anim:hover {
+    transform: rotate(360deg);
+  }
 }
