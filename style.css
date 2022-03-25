@@ -315,6 +315,9 @@ body {
     font-size: 15px;
     font-weight: 500;
     text-decoration: none;
+    transition-duration: 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: ease-out;
   }
 
   .post h2 {
@@ -344,16 +347,26 @@ body {
     grid-column: 1/2;
     grid-row: 1/5;
     justify-self: stretch;
+    transition: transform 0.5s ease;
   }
 
   .mirror-post img {
     grid-column: 2/3;
   }
 
+  .post img:hover {
+    transform: scale(1.3);
+  }
+
   .post > ul,
   .post > button,
   .post p {
     margin: 0%;
+  }
+
+  #section-1 a:hover {
+    font-size: 200%;
+    color: gray;
   }
 
   #section-1 #nav-bar a:not(.desktop-v),
@@ -502,5 +515,13 @@ body {
     flex-direction: row;
     gap: 10px;
     font-size: 20px;
+  }
+
+  .rotate-anim {
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  .rotate-anim:hover {
+    transform: rotate(360deg);
   }
 }
