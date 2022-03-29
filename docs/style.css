@@ -302,6 +302,11 @@ body {
   height: 1px;
 }
 
+.label {
+  display: flex;
+  align-self: center;
+}
+
 @media screen and (max-width: 768px) {
   #section-3 div:not(#work-section),
   .desktop-v {
@@ -502,6 +507,7 @@ body {
 
   .input-box {
     width: 684px;
+    margin-left: 20px;
   }
 
   .send-button {
@@ -523,5 +529,15 @@ body {
 
   .rotate-anim:hover {
     transform: rotate(360deg);
+  }
+
+  .label {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .label::after {
+    content: " *";
+    color: red;
   }
 }
