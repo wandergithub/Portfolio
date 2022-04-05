@@ -30,12 +30,6 @@ body {
   justify-content: space-between;
 }
 
-#section-1 nav img {
-  height: 22.83px;
-  width: 35.33px;
-  align-self: center;
-}
-
 #section-1 header {
   align-self: center;
 }
@@ -303,6 +297,7 @@ body {
   display: flex;
   color: white;
   text-decoration: none;
+  font-size: 28px;
 }
 
 #section-6 a {
