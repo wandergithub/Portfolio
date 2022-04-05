@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-#section-1 #nav-bar {
+#section-1 #nav-bar:not(.hidden) {
   display: flex;
   justify-content: space-between;
 }
@@ -398,7 +398,8 @@ body {
 
   #section-1 #nav-bar a:not(.desktop-v),
   #section-1 #nav-bar img:not(.desktop-v),
-  #section-5 h2:not(.desktop-v) {
+  #section-5 h2:not(.desktop-v),
+  .mobile {
     display: none;
   }
 
@@ -408,7 +409,7 @@ body {
     background-position: left 267px, right 539px, left 1661px, right 2343px, left 2941px, right 3173px;
   }
 
-  #section-1 #nav-bar div {
+  #section-1 #nav-bar div:not(.hidden) {
     display: flex;
     align-items: center;
     justify-content: space-between;
