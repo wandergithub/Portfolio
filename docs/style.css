@@ -1,4 +1,4 @@
-html, 
+html,
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -299,6 +299,12 @@ body {
   margin-bottom: 0%;
 }
 
+.style-menu > div a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
 #section-6 a {
   color: white;
   text-decoration: none;
@@ -315,13 +321,7 @@ body {
 
 .menu-btn {
   border-style: none;
-  background: none;  
-}
-
-.style-menu > div a {
-  display: flex;
-  color: white;
-  text-decoration: none;
+  background: none;
 }
 
 .menu-flex {
@@ -333,6 +333,10 @@ body {
 
 .hidden {
   display: none;
+}
+
+.margin-left {
+  margin-left: 200px;
 }
 
 @media screen and (max-width: 768px) {
