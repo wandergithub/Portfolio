@@ -1,3 +1,9 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #191765;
   background-image: url(sprites/Ellipse18.svg), url(sprites/Ellipse19.svg), url(sprites/Ellipse20.png), url(sprites/21.png), url(sprites/Ellipse21.svg), url(sprites/Ellipse22.svg);
@@ -19,15 +25,9 @@ body {
   text-align: center;
 }
 
-#section-1 #nav-bar {
+#section-1 #nav-bar:not(.hidden) {
   display: flex;
   justify-content: space-between;
-}
-
-#section-1 nav img {
-  height: 22.83px;
-  width: 35.33px;
-  align-self: center;
 }
 
 #section-1 header {
@@ -293,6 +293,13 @@ body {
   margin-bottom: 0%;
 }
 
+.style-menu > div a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+}
+
 #section-6 a {
   color: white;
   text-decoration: none;
@@ -305,6 +312,26 @@ body {
 .label {
   display: flex;
   align-self: center;
+}
+
+.menu-btn {
+  border-style: none;
+  background: none;
+}
+
+.menu-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0;
+  justify-content: space-around;
+}
+
+.hidden {
+  display: none;
+}
+
+.margin-left {
+  margin-left: 200px;
 }
 
 @media screen and (max-width: 768px) {
@@ -376,7 +403,8 @@ body {
 
   #section-1 #nav-bar a:not(.desktop-v),
   #section-1 #nav-bar img:not(.desktop-v),
-  #section-5 h2:not(.desktop-v) {
+  #section-5 h2:not(.desktop-v),
+  .mobile {
     display: none;
   }
 
@@ -386,7 +414,7 @@ body {
     background-position: left 267px, right 539px, left 1661px, right 2343px, left 2941px, right 3173px;
   }
 
-  #section-1 #nav-bar div {
+  #section-1 #nav-bar div:not(.hidden) {
     display: flex;
     align-items: center;
     justify-content: space-between;
