@@ -1,3 +1,9 @@
+html, 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #191765;
   background-image: url(sprites/Ellipse18.svg), url(sprites/Ellipse19.svg), url(sprites/Ellipse20.png), url(sprites/21.png), url(sprites/Ellipse21.svg), url(sprites/Ellipse22.svg);
