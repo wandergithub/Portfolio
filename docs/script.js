@@ -5,6 +5,9 @@ const quitbtn = document.querySelector('#quitbtn');
 const menuLinks = document.querySelectorAll('div .menu-flex a ');
 const navVar = document.getElementById('nav-bar');
 const aTags = document.querySelectorAll('.menu-flex');
+const btnDetails = document.querySelectorAll('.btnDetails');
+const c = document.body.querySelectorAll('*');
+
 function displayMenu() {
   btn.classList.add('hidden');
   content.forEach((e) => e.classList.add('hidden'));
@@ -22,6 +25,13 @@ function quitMenu() {
   aTags.forEach((e) => e.removeAttribute('style'));
 }
 
+function displayDetails() {
+  btnDetails.classList.add('hidden');
+  c.forEach((e) => e.classList.add('hidden'));
+  
+}
+
+btnDetails[0].addEventListener('click', displayDetails);
 btn.addEventListener('click', displayMenu);
 quitbtn.addEventListener('click', quitMenu);
 menuLinks.forEach((e) => e.addEventListener('click', quitMenu));
