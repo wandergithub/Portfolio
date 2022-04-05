@@ -5,6 +5,7 @@
 ## Built With
 
 - HTML & CSS
+- JavaScript
 - Github Pages
 
 ## Live page
@@ -17,10 +18,18 @@
 - Twitter: [@wanderklk1](https://twitter.com/wanderklk1)
 - LinkedIn: [Wander A. Gonzalez](https://www.linkedin.com/in/wander-a-gonzalez-53127b205/)
 
-## Co-Authors 👤
+## Colaborators 👤
+
+👤 **Gedewon**
 
 -  GitHub: [@Gedewon](https://github.com/Gedewon)
 - LinkedIn: [@Gedewon:](https://linkedin.com/in/gedewon)
+
+👤 **Mariana Revilla Lérida**
+
+- GitHub: [@marurevi](https://github.com/marurevi)
+- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
+- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-lérida-a12aba143)
 
 ## Setup 🧰
 
