@@ -12,6 +12,9 @@ const header3 = document.querySelector('#section-4 > article h3');
 const imgPreview = document.querySelector('#section-4 article img');
 const textPreview = document.querySelector('#section-4 > article p');
 const listOfTechnologies = document.querySelector('#section-4 > article ul');
+const div = document.createElement('div');
+    
+    
 // Store cards Project individual info
 var projects = [
   {
@@ -85,6 +88,7 @@ function createQuitBtn(element) {
 }
 // Quit the details popup
 function quitDetails() {
+  document.getElementById('stylesheet').disabled = false;
   btnDetails[0].removeAttribute("style");
   document.querySelectorAll('.positionQBtn, .but, .deco li').forEach(item => { 
     item.remove();
@@ -125,7 +129,6 @@ function create_a_link(container) {
 
 //Determine which card was clicked
 function cardSelected(event) {
-  console.log(event.path[0].id);
   return arguments[0].path[0].id;
 }
 // Set project content to te card
@@ -207,9 +210,43 @@ function displayDetails(event) {
       generatePost(3, link, link2);
       break;
   }
+  document.getElementById('stylesheet').disabled = true;
+  document.querySelector('#section-4 > article').appendChild(div);
+    let ele = document.querySelectorAll('#section-4 > article a');
+    ele.forEach(element => {
+      div.appendChild(element);
+    });
+    div.classList.add('dov');
+    div.setAttribute('id','dov');
+    myFunction(x);
+}
+
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.getElementById('dov').style.flexDirection = 'row';
+    document.querySelector('.post > ul').style.width = '302px';
+    document.querySelector('.post > ul').style.alignSelf = 'center';
+    document.querySelector('.post > p').style.width = '59.4%';
+    document.querySelector('.post > p').style.alignSelf = 'center';
+    document.querySelector('.post > p').style.lineHeight = '30px';
+    document.querySelector('.post > ul').style.marginTop = '60px';
+    document.querySelector('.post > ul').style.marginBottom = '30px';
+    document.querySelector('.post > h3').style.fontSize = '40px';
+  } else {
+    document.getElementById('dov').style.flexDirection = 'column';
+    document.querySelector('.post > ul').style.width = 'auto';
+    document.querySelector('.post > p').style.width = '100%';
+    document.querySelector('.post > p').style.lineHeight = '24px';
+    document.querySelector('.post > ul').style.marginTop = '34px';
+    document.querySelector('.post > ul').style.marginBottom = '10px';
+    document.querySelector('.post > h3').style.fontSize = '20px';
+
+  }
 }
 // Event listeners
 btnDetails.forEach((item) => { item.addEventListener('click', displayDetails) })
 btn.addEventListener('click', displayMenu);
 
-
+var x = window.matchMedia("(min-width: 768px)");
+ // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
