@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Project Media',
     description: "Description text 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    'featured image': 'sprites/projectPreview.svg',
+    'featured image': './sprites/projectPreview.svg',
     technologies: ['html', 'Ruby on rails', 'css'],
     'link to live version': 'https://wandergithub.github.io/project-media/',
     'link to source': 'https://github.com/wandergithub/project-media',
@@ -28,7 +28,7 @@ const projects = [
   {
     name: 'Tribute to Michael Jackson',
     description: " Description text 2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    'featured image': 'sprites/projectPreview.svg',
+    'featured image': './sprites/projectPreview.svg',
     technologies: ['C++', 'C', 'c#'],
     'link to live version': 'https://wandergithub.github.io/tribute-page/',
     'link to source': 'https://github.com/wandergithub/tribute-page',
@@ -36,7 +36,7 @@ const projects = [
   {
     name: 'post 3',
     description: "Description text 3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    'featured image': 'sprites/projectPreview.svg',
+    'featured image': './sprites/projectPreview.svg',
     technologies: ['python', 'Ruby on rails', 'Javascript'],
     'link to live version': 'https://wandergithub.github.io/project-media/',
     'link to source': 'https://github.com/wandergithub/project-media',
@@ -44,7 +44,7 @@ const projects = [
   {
     name: 'post 4',
     description: "Description text 4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    'featured image': 'sprites/projectPreview.svg',
+    'featured image': './sprites/projectPreview.svg',
     technologies: ['html', 'Ruby on rails', 'css'],
     'link to live version': 'https://wandergithub.github.io/tribute-page/',
     'link to source': 'https://github.com/wandergithub/tribute-page',
@@ -52,7 +52,7 @@ const projects = [
   {
     name: 'Multi-Post Storie',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    'featured image': 'sprites/img-placeholder.png',
+    'featured image': './sprites/img-placeholder.png',
     technologies: ['css', 'html', 'Bootstrap', 'Ruby'],
     'link to live version': 'https://wandergithub.github.io/project-media/',
     'link to source': 'https://github.com/wandergithub/project-media',
