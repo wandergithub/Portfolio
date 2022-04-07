@@ -333,6 +333,7 @@ body {
 .margin-left {
   margin-left: 200px;
 }
+
 /* Popup Window styles */
 .blur-bg {
   border-style: solid;
@@ -352,7 +353,7 @@ body {
 
 .headerMobile {
   order: 1;
-  margin: 0px 0px 24px 0px;
+  margin: 0 0 24px 0;
   font-size: 20px;
   font-weight: 500;
   color: white;
@@ -372,9 +373,9 @@ body {
 }
 
 .deco {
-  background-image: url(sprites/Rectangle72.png),url(sprites/Rectangle72.png);
+  background-image: url(sprites/Rectangle72.png), url(sprites/Rectangle72.png);
   background-repeat: no-repeat;
-  background-position: right,left;
+  background-position: right, left;
   background-origin: padding-box;
   padding-right: 10px;
   height: 30px;
