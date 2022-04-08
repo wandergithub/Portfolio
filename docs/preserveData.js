@@ -1,4 +1,4 @@
-const userName = document.getElementById('name');
+const inputs = document.querySelectorAll('.input-box');
 
 function storageAvailable(type) {
   var storage;
@@ -25,12 +25,14 @@ function storageAvailable(type) {
   }
 }
 
-function loadUserData(params) {
+function loadUserData() {
   if (storageAvailable('localStorage')) { // Check if storage is abailable
-    if(!localStorage.getItem('name')) {//Check if we have an input abailable
+    if(localStorage.length === 0) {
       saveUserData();
     }else{
-      userName.value = localStorage.getItem('name');
+      inputs[0].value = localStorage.getItem('name');
+      inputs[1].value = localStorage.getItem('email');
+      inputs[2].value = localStorage.getItem('msg');
     }
   }
   else {
@@ -38,8 +40,10 @@ function loadUserData(params) {
   }  
 }
 
-function saveUserData(params) {
-  localStorage.setItem('name', userName.value);
+function saveUserData() {
+  localStorage.setItem('name', inputs[0].value);
+  localStorage.setItem('email', inputs[1].value);
+  localStorage.setItem('msg', inputs[2].value);
 }
-userName.addEventListener('input', saveUserData);
+inputs.forEach(input => input.addEventListener('input', saveUserData));
 loadUserData();
