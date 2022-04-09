@@ -31,6 +31,12 @@
 - Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
 - LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-lérida-a12aba143)
 
+👤 **Adaobi Vivian Okoye**
+
+- GitHub: [@githubhandle](https://github.com/adanzeakonobi)
+- Twitter: [@twitterhandle](https://twitter.com/Adaebubemmuta)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okoyeaadaobi)
+
 ## Setup 🧰
 
 1. Clone the main branch.
