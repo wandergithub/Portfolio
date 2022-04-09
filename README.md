@@ -33,9 +33,9 @@
 
 👤 **Adaobi Vivian Okoye**
 
-- GitHub: [@githubhandle](https://github.com/adanzeakonobi)
-- Twitter: [@twitterhandle](https://twitter.com/Adaebubemmuta)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/okoyeaadaobi)
+- GitHub: [@adanzeakonobi](https://github.com/adanzeakonobi)
+- Twitter: [@Adaebubemmuta](https://twitter.com/Adaebubemmuta)
+- LinkedIn: [okoyeaadaobi](https://linkedin.com/in/okoyeaadaobi)
 
 ## Setup 🧰
 
