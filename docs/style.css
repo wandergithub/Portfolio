@@ -411,9 +411,16 @@ body {
   width: 302px;
 }
 
+body label {
+  display: inline;
+}
+
 @media screen and (max-width: 768px) {
   #section-3 div:not(#work-section),
   .desktop-v {
+    display: none;
+  }
+  body label {
     display: none;
   }
 }
