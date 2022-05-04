@@ -18,7 +18,7 @@ const div = document.createElement('div');
 // Store cards Project individual info
 const projects = [
   {
-    name: 'Get Inspired web project',
+    name: 'Get Inspired ||web project',
     description: "This web project gives to the user a compilation of resources about programmers and their accomplishments. If you are looking for successful developers, legends on the industry to look up to, search for inspiration, or simply admire a good software career path and work this is the right web page.",
     'featured image': 'https://raw.githubusercontent.com/wandergithub/get-inspired/master/app_screenshots.png',
     technologies: ['html', 'JavaScript', 'css'],
@@ -116,7 +116,7 @@ function quitDetails() {
   listOfTechnologies.removeAttribute('style');
   document.querySelector('#section-4 > article button').removeAttribute('style');
 
-  generatePost(4, document.querySelector('#section-4 article'), document.querySelector('#section-4 article'));
+  generatePost(0, document.querySelector('#section-4 article'), document.querySelector('#section-4 article'));
 }
 // Creates a quit button on the element passed, with the style and function.
 function createQuitBtn(element) {
