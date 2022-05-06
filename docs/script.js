@@ -110,8 +110,10 @@ function quitDetails() {
   document.getElementById('section-4').classList.remove('blur-bg');
   document.querySelector('#section-4 > article').classList.remove('articleStyle');
   header3.classList.remove('headerMobile');
+  header3.removeAttribute('style');
   imgPreview.removeAttribute('style');
   textPreview.classList.remove('p-style');
+  textPreview.removeAttribute('style');
   listOfTechnologies.classList.remove('deco');
   listOfTechnologies.removeAttribute('style');
   document.querySelector('#section-4 > article button').removeAttribute('style');
