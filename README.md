@@ -37,6 +37,12 @@
 - Twitter: [@Adaebubemmuta](https://twitter.com/Adaebubemmuta)
 - LinkedIn: [okoyeaadaobi](https://linkedin.com/in/okoyeaadaobi)
 
+👤 **amklass11**
+
+- GitHub: [@adanzeakonobi](https://github.com/adanzeakonobi)
+- Twitter: [@adanzeakonobi](https://twitter.com/Adaebubemmuta)
+- LinkedIn: [adanzeakonobi](https://www.linkedin.com/in/amk-lass-521565196/)
+
 ## Setup 🧰
 
 1. Clone the main branch.
