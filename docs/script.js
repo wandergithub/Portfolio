@@ -19,7 +19,7 @@ const div = document.createElement('div');
 const projects = [
   {
     name: 'Get Inspired ||web project',
-    description: "This web project gives to the user a compilation of resources about programmers and their accomplishments. If you are looking for successful developers, legends on the industry to look up to, search for inspiration, or simply admire a good software career path and work this is the right web page.",
+    description: 'This web project gives to the user a compilation of resources about programmers and their accomplishments. If you are looking for successful developers, legends on the industry to look up to, search for inspiration, or simply admire a good software career path and work this is the right web page.',
     'featured image': 'https://raw.githubusercontent.com/wandergithub/get-inspired/master/app_screenshots.png',
     technologies: ['html', 'JavaScript', 'css'],
     'link to live version': 'https://wandergithub.github.io/get-inspired/',
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     name: 'API Based Web App',
-    description: "This collaborative JavaScript project is a personalized web application with the help of an external API. we are using two different APIs to have a complete working web app. We are using one API to retrieve all data for the the artist track, albums and title, and another API to store all user interactions.",
+    description: 'This collaborative JavaScript project is a personalized web application with the help of an external API. we are using two different APIs to have a complete working web app. We are using one API to retrieve all data for the the artist track, albums and title, and another API to store all user interactions.',
     'featured image': 'https://github.com/idungstanley/API-based-webAPP/raw/dev/screenshot.png',
     technologies: ['Javascript', 'iTunes Search API', 'Involvement API'],
     'link to live version': 'https://idungstanley.github.io/API-based-webAPP/',
