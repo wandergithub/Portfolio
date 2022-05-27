@@ -169,6 +169,7 @@ body {
   background-origin: padding-box;
   padding-right: 10px;
   height: 30px;
+  margin: 10px 10px;
 }
 
 .post > ul li:nth-last-child(1) {
