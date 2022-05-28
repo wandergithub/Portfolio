@@ -1,12 +1,43 @@
 @media screen and (min-width: 768px) {
   #section-1 a {
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
     text-decoration: none;
-    transition-duration: 0.5s;
-    transition-property: font-size, color;
-    transition-timing-function: ease-out;
+    color: #efeef5;
+    transition: 0.5s;
+    font-size: 15px;
+    margin-left: 16px;
+  }
+
+  #nav-bar {
+    height: 50px;
+  }
+
+  #nav-bar li {
+    list-style: none;
+    transition: 0.3s;
+  }
+
+  #nav-bar div li a {
+    text-decoration: none;
+    color: #efeef5;
+    transition: 0.5s;
+    font-size: 15px;
+    margin-left: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+  }
+
+  #nav-bar div li:hover a {
+    text-decoration: none;
+    color: #191765;
+  }
+
+  #nav-bar div li:hover {
+    height: 45px;
+    padding-top: 30px;
+    margin-top: -30px;
+    background: #aeabbb;
+    text-decoration: none;
+    transform: skew(15deg);
   }
 
   .post h2 {
@@ -49,14 +80,8 @@
   }
 
   .post > ul,
-  .post > button,
   .post p {
     margin: 0%;
-  }
-
-  #section-1 a:hover {
-    font-size: 200%;
-    color: gray;
   }
 
   #section-1 #nav-bar a:not(.desktop-v),
@@ -76,7 +101,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
   }
 
   #section-1 #nav-bar {
@@ -133,10 +157,6 @@
     grid-row: 2 / span 1;
   }
 
-  #section-2 ul li {
-    margin-bottom: 20px;
-  }
-
   #section-3 {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
@@ -144,7 +164,6 @@
     justify-items: center;
     align-items: center;
     row-gap: 200px;
-    margin: 85px 200px 33px 200px;
   }
 
   #section-3 .title {
@@ -166,7 +185,7 @@
     grid-row-gap: 24px;
     grid-column-gap: 24px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 105px 140px 40px 48px;
+    grid-template-rows: 105px 140px 40px 90px;
     padding-bottom: 88px;
     padding-top: 0%;
     margin: 0% 142px 0% 142px;
@@ -225,5 +244,9 @@
   .label::after {
     content: " *";
     color: red;
+  }
+
+  .header-ul {
+    display: flex;
   }
 }
