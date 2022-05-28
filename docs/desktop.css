@@ -246,4 +246,8 @@
     content: " *";
     color: red;
   }
+
+  .header-ul {
+    display: flex;
+  }
 }
